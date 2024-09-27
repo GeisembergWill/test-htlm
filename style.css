@@ -1,4 +1,7 @@
-h1,em {
-    color: blue;
-
-}
+h1,em {color: blue;}
+h2,em {color:red;}
+h3,em {color: greenyellow;}
+p,em {color:white;}
+ul,em {color:black;}
+body,em {background:linear-gradient(grey,black);}
+nav,em {color:white}
