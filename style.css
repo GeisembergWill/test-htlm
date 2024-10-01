@@ -12,10 +12,12 @@
 }
     
 body{
-    background-color: #d8b90b;}
+    background-color: #d8b90b;
+}
 main{
     background-color: white;
-padding:0.5em ;}        
+padding:0.5em ;
+}        
     
 /* ***************************************************************Header******************************************************************** */
 header{
@@ -30,12 +32,9 @@ h2{
 header>figure>img{
     width: 100%;
     vertical-align: top;
-    
-    
-    
-
-    
-
+}
+.simpsons{
+    padding: 0;
 }
 /* **************************************************************Main nav************************************************************************* */
     
@@ -43,14 +42,17 @@ article{
     width: 60%;
     text-align:justify;
     font-size:large;
-    padding:0.5em
+    padding:1em
 }
 ul{
     background-color:brgba(0, 60, 255, 0.548);
-    color:white
+    color:white;
+    text-align: left;
 }
 h1{
     color: #d8b90b;
+    margin-bottom: 30px;
+    
 } 
 
 nav{
@@ -58,7 +60,8 @@ nav{
     width:20%;
 font-size:1sem;
 height: fit-content;
-padding:0.5em}
+padding:0.5em;
+}
 
 nav{
     color: white;
@@ -72,34 +75,52 @@ main{
 }
 aside{
     background-color: rgb(13, 43, 175);
-    font-size:large
+    font-size:large;
+    
 }
 aside{
     color: white;
     width:20%;
+    
 }
-img{width: 100%;}
+img{width: 65%;
+    padding: 0.2em;
+text-align: center;
+margin: auto;
+}
+
+figure{
+    text-align: center;
+}
+
 h2{
     color:white;
     
 }
 h3{
     color: white;text-align: center;
+    margin-bottom: 10px;
 }
 p{
-text-align: justify;font-size:1em;
-
-    
+text-align: justify;
+font-size:1em;
 }
-
+aside>p{
+    padding: 1em;
+}
 ul{
     color:black;
 }
 
 nav>ul>li>a{
-    color:white
+    color:white;
+    padding: 0.5em;
+    
 }
-
+.List{text-align: center;
+    padding: 0.5em;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxFooterxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 footer{
     background-color:blue;
     text-align: justify;
